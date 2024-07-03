@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\StaffManagementAPI\\StaffManagementAPI\\StaffManagementAPI.csproj": {}
+    "D:\\Projects\\StaffManagementAPI2\\StaffManagementAPI\\StaffManagementAPI.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\StaffManagementAPI\\StaffManagementAPI\\StaffManagementAPI.csproj": {
+    "D:\\Projects\\StaffManagementAPI2\\StaffManagementAPI\\StaffManagementAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\StaffManagementAPI\\StaffManagementAPI\\StaffManagementAPI.csproj",
+        "projectUniqueName": "D:\\Projects\\StaffManagementAPI2\\StaffManagementAPI\\StaffManagementAPI.csproj",
         "projectName": "StaffManagementAPI",
-        "projectPath": "D:\\Projects\\StaffManagementAPI\\StaffManagementAPI\\StaffManagementAPI.csproj",
+        "projectPath": "D:\\Projects\\StaffManagementAPI2\\StaffManagementAPI\\StaffManagementAPI.csproj",
         "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\StaffManagementAPI\\StaffManagementAPI\\obj\\",
+        "outputPath": "D:\\Projects\\StaffManagementAPI2\\StaffManagementAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

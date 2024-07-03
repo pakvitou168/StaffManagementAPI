@@ -1,6 +1,10 @@
+using WebApplication1.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<StaffContext>(options => options.UseSqlServer("Server =DESKTOP-A6TF0AN\\SQLEXPRESS; Database = StaffManagementApiDB; Integrated Security = True;TrustServerCertificate=True"));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
